@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html lang="it">
-
 <head>
+    <link rel="stylesheet" href="./style/stylesheet.css">  
     <title>Super Mario</title>
     <meta charset="UTF-8">
-    <style>
-        div {
-            width: 250px;
-            border: 15px solid purple;
-            padding: 50px;
-            margin-right: 20px;
-        }
-    </style>
 </head>
-<body style="background-color: black;text-align: justify;color: grey; font-size: 20px;">
-    <h1 style="text-align: center;">Super Mario WIKI</h1>
+<body>
+    <h1>Super Mario WIKI</h1>
     <hr>
-    <div style="float: right;">
+    <div>
         <p><a href="#Intro">Vai all' introduzione</a></p>
         <br>
         <p><a href="#Personaggi"> I personaggi principali</a></p>
@@ -33,7 +25,7 @@
         <br>
         <p><a href="#prodotti"> Prodotti e console di Nintendo</a></p>
     </div>
-    <h2 style="margin-left: 40px;color: purple ;" id="Intro">Introduzione</h2>
+    <h2 id="Intro">Introduzione</h2>
     <p><em><strong>Super Mario</strong></em>, anche noto come <strong><em>Super Mario Bros</em></strong>, è una serie
         di videogiochi a piattaforme prodotta da Nintendo, avente come protagonista Mario, la mascotte dell'azienda.<br>
         È la principale serie del più grande franchise di Mario. La serie videoludica è considerata una delle più
@@ -42,10 +34,10 @@
     <br>
     <figure>
         <figcaption>Il famosissimo logo del gioco</figcaption>
-        <img src="./image/logo2.png" title="Super Mario" alt="Logo Super Mario" style="height: 150px;width: 260px;">
+        <img src="./image/logo2.png"  id="logo-color" title="Super Mario" alt="Logo Super Mario">
     </figure>
     <br>
-    <h2 style="margin-left: 40px;color: purple;" id="Personaggi"> I personaggi principali</h2>
+    <h2 id="Personaggi"> I personaggi principali</h2>
     <br>
     <ul>
         <li><a href="#Mario">
@@ -82,13 +74,13 @@
     <br>
     <br>
     <figure>
-        <figcaption style="margin-left: 15px;">Il logo della casa editrice
-            <a href="https://www.nintendo.com/it-it/Giochi/Universo-Nintendo/Portale-di-Super-Mario/Portale-di-Super-Mario-627604.html?srsltid=AfmBOorrQGNbE33IdQfUWV2WhljpkaGnEi71Mi6-ljIgBzJyJWYlCnnd"
-                target="_blank" style="margin-left: 50px;">Sito della Nintendo </a>
+        <figcaption id="logo">Il logo della casa editrice
+            <a id="sito-nint" href="https://www.nintendo.com/it-it/Giochi/Universo-Nintendo/Portale-di-Super-Mario/Portale-di-Super-Mario-627604.html?srsltid=AfmBOorrQGNbE33IdQfUWV2WhljpkaGnEi71Mi6-ljIgBzJyJWYlCnnd"
+                target="_blank">Sito della Nintendo </a>
         </figcaption>
-        <img src="./image/logo3.jpg" alt="Logo Nintendo" title="Nintendo" style="width: 370px; height: 270px;">
+        <img src="./image/logo3.jpg"  id="logo-nero" alt="Logo Nintendo" title="Nintendo">
     </figure>
-    <h2 style="margin-left: 40px;color: purple;" id="Storia">Storia della casa editrice</h2>
+    <h2 id="Storia">Storia della casa editrice</h2>
     <p> Nintendo Co. Ltd. è un'azienda giapponese specializzata nella produzione di videogiochi e console</p>
     <p>Considerata come una delle più grandi compagnie del Giappone, Nintendo fu fondata il 23 settembre 1889 da
         Yamauchi Fusajirō come produttore e distributore di carte da gioco. <br>Nel corso della sua storia ha realizzato
@@ -178,12 +170,12 @@
                         presidente.</p>
         </li>
     </ul>
-    <a style="font-size: 30px; text-align: center;" id="video" href="https://www.youtube.com/watch?v=rLl9XBg7wSs"
+    <a id="gameplay" id="video" href="https://www.youtube.com/watch?v=rLl9XBg7wSs"
         target="_blank"> Gameplay di Super Mario 1985</a>
     <br>
-    <h2  style="margin-left: 40px;color: purple;" id="prodotti">Console</h2>
+    <h2 id="prodotti">Console</h2>
     <h3><em>Console da tavolo:</em></h3>
-    <ul style="margin-right: 20px;">
+    <ul id="Console">
         <li>Color TV Game(1977)</li>
         <li>Nintendo Entertainment System (1983)</li>
         <li>Nintendo Entertainment System Control Deck (1993)</li>
@@ -193,6 +185,6 @@
         
     </ul>
 
-    <a href="https://www.youtube.com/watch?v=uHgt8giw1LY" target="_blank" style="float: right; margin-bottom: 1px; font-size: 10px">Don't press this button</a>
+    <a  id="rick" href="https://www.youtube.com/watch?v=uHgt8giw1LY" target="_blank">Don't press this button</a>
 </body>
 </html>

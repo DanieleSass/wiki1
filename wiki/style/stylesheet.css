@@ -1,0 +1,46 @@
+
+body {
+        background-color: #000000; text-align: justify; color: rgb(150,150,150); font-size: 20px;
+    }
+div {
+        width: 250px;
+        border: 15px solid rgb(255, 0, 255);
+        padding: 50px;
+        margin-right: 20px;
+        float: right;
+ }
+ h1{
+    text-align: center;
+    text-shadow: 3px 3px;
+ }
+ h2{
+    margin-left: 40px;
+    color: rgb(255, 0, 255) ;
+ }
+ #Console {
+    margin-right: 20px;
+ }
+
+ #rick {
+    float: right; 
+    margin-bottom: 1px;
+    font-size: 10px
+ }
+ #gameplay{
+    font-size: 30px;
+     text-align: center;
+ }
+ #logo{
+    margin-left: 15px;
+ }
+#sito-nint{
+    margin-left: 50px;
+}
+#logo-nero{
+     width: 370px;
+     height: 270px;
+}
+#logo-color{
+    height: 150px;
+    width: 260px;
+}
